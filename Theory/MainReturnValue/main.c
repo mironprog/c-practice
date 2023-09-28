@@ -8,10 +8,10 @@ int main(void)
     scanf("%d", &input);
 
 
-if(input > 5){
-    return 0;
-}else{
-    return 1;
-}
+    if(input > 5){
+        return 0;
+    }else{
+        return 1;
+    }
 
 }
